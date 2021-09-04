@@ -1,0 +1,32 @@
+section {
+    background-color: #f9f8fb;
+    min-height: 100vh;
+
+    .preview {
+        position: relative;
+        width: 100%;
+    }
+    .borderBox {
+        border: 2px solid rgb(55, 71, 206);
+        position: absolute;
+    }
+    .item {
+        display: inline-block;
+        margin: 15px;
+        text-align: center;
+    }
+    .webcam {
+        button {
+            width: 100%;
+        }
+    }
+    .box {
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 1px 11px 0 rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0 1px 11px 0 rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 1px 11px 0 rgba(0, 0, 0, 0.1);
+        background: #fff;
+        min-height: 246px;
+    }
+}

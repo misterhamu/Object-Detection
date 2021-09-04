@@ -1,0 +1,10 @@
+$font-family-sans-serif: "Roboto", sans-serif;
+html * {
+    font-family: $font-family-sans-serif
+}
+
+.modal-footer{
+  button{
+    width: 100%;
+  }
+}
